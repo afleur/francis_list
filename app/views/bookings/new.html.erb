@@ -1,0 +1,26 @@
+<div class="confirmation">
+  <div class="confirmation-back">
+    <%= link_to 'x', activity_path(@booking.activity_id)%>
+  </div>
+  <div class="confirmation-text">
+    Je réserve
+  </div>
+  <div class="confirmation-course-name">
+    un cours de <div class="strong-text"><%= @booking.activity.course.name %></div></div>
+  <div class="confirmation-course-studio">
+    <div class="light-text">au</div><div class="strong-text"> <%= @booking.activity.course.studio %></div>
+  </div>
+  <div class="confirmation-date">
+    <div class="strong-text"><%= l(@booking.activity.start_time, format: "%A %e %B", locale: 'fr') %></div>
+  </div>
+  <div class="confirmation-hour">
+    <div class="light-text">à</div> <div class="strong-text"><%=@booking.activity.start_time.strftime("%H:%M") %></div>
+  </div>
+  <div class="confirmation-credits">
+    <div class="light-text">pour</div> <div class="strong-text"> <%= @booking.activity.course.credits_cost%> crédits</div>
+  </div>
+  <div class="confirmation-ok action-button">
+    <%= link_to "Je confirme", activity_bookings_path, method: :post %>
+  </div>
+</div>
+

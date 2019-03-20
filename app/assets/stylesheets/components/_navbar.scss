@@ -1,0 +1,70 @@
+/* Main navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: $primary-purple;
+  transition: all 0.3s ease;
+  height: 40px;
+  padding: 0px 10px;
+  width: 100%;
+  p {
+    font-size: 10px;
+    text-decoration: none;
+  }
+  span {
+    color: $secondary-purple;
+  }
+}
+
+/* Right section */
+/* Logo */
+.navbar-brand img {
+  height: 20px;
+}
+
+/* Navbar link */
+.navbar-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  div {
+    margin-right: 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+  p {
+    color: $secondary-purple;
+    text-align: center;
+    font-size: 10px;
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+/* Basic navbar item */
+.navbar-item {
+  color: $white;
+  font-weight: 300;
+  font-size: 12px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.navbar-link:hover {
+  color: $white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.activities-txt {
+  padding-right: 15px;
+}
+
+.logout-txt {
+  padding-left: 7px;
+}

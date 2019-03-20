@@ -1,0 +1,117 @@
+.container-index {
+  margin: 0 auto;
+}
+
+.card {
+  display :flex;
+  align-items: left;
+  justify-content: space-around;
+  font-family: $body-font;
+  color: #727272;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.3);
+  position: relative;
+  padding: 10px 0;
+  margin-bottom: 5px;
+}
+
+.card-body {
+  margin-left: 15px;
+  flex: auto;
+}
+
+.photo {
+  padding-top: 3px;
+}
+
+.card-hour {
+  font-size: 13px;
+  padding: 2px 0;
+  padding-bottom: 2px;
+}
+
+.start-activity {
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+}
+
+.course-name {
+  margin-top: 3px;
+  font-family: $headers-font;
+  font-weight: bold;
+}
+
+.course-name a {
+  text-decoration: none;
+  color: #727272;
+}
+
+.course-name a:hover {
+  text-decoration: none;
+  color: #8D0B88;
+}
+
+.course-studio {
+  font-size: 13px;
+  padding-bottom: 3px;
+}
+
+.course-address {
+  font-weight: lighter;
+  font-size: 11px;
+}
+
+.card-icon-bottom {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  font-weight: lighter;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 11px;
+  padding: 5px 0;
+  color: #727272;
+}
+
+.wallet {
+  position: absolute;
+  top: 7px;
+  right: 14px;
+  color: #727272;
+  font-size: 12px;
+}
+
+.category {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  font-size: 8px;
+  padding: 0px 3px;
+  border-radius: 0px;
+  color: #FFF;
+  border-radius: 1px;
+
+}
+
+.category-cardio {
+  background-color: rgba(231, 0, 0, 0.8);
+  padding: 1px 3px;
+}
+
+.category-danse {
+  background-color: rgba(223, 70, 171, 0.8);
+  padding: 1px 3px;
+}
+
+.category-artsmartiaux {
+  background-color: rgba(180, 180, 180, 0.8);
+  padding: 1px 3px;
+}
+
+.category-souplesse {
+  background-color: rgba(4, 134, 48, 0.8);
+  padding: 1px 3px;
+}
+
+.category-renforcement {
+  background-color: rgba(16, 184, 220, 0.8);
+  padding: 1px 3px;
+}

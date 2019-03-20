@@ -1,0 +1,10 @@
+<div class="navbar-fixed-bottom navbar-activities-show">
+  <!-- Logo -->
+  <%= link_to new_activity_booking_path(@activity) do %>
+    <div class="booking-go">
+      <div class="action-button">
+        <strong> JE RÉSERVE</strong> (<%= @activity.course.credits_cost %> crédits)
+      </div>
+    </div>
+  <% end %>
+</div>
