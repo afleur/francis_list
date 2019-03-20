@@ -434,174 +434,62 @@ pilates = Course.find_by(name: "Pilates")
 hiphop = Course.find_by(name: "Hip-Hop")
 kickboxing = Course.find_by(name: "Kick Boxing")
 
+
+
+
   Activity.create!(
-    start_time: DateTime.new(Time.zone.now.to_date,17),
+    start_time: DateTime.new(2019,3,20,17),
     course: hatha_yoga,
   )
 
   Activity.create!(
-    start_time: DateTime.new(2019,3,18,20),
+    start_time: DateTime.new(2019,3,20,20),
     course: crossfit,
   )
 
   Activity.create!(
-    start_time: DateTime.new(2019,3,18,18),
+    start_time: DateTime.new(2019,3,20,18),
     course: kickboxing,
   )
 
   Activity.create!(
-    start_time: DateTime.new(2019,3,18,18),
+    start_time: DateTime.new(2019,3,20,18),
     course: boxe_anglaise,
   )
 
   Activity.create!(
-    start_time: DateTime.new(2019,3,18,18.5),
+    start_time: DateTime.new(2019,3,20,18.5),
     course: body_combat,
   )
 
   Activity.create!(
-    start_time: DateTime.new(2019,3,18,19.5),
+    start_time: DateTime.new(2019,3,20,19.5),
     course: pole_dance,
   )
 
   Activity.create!(
-    start_time: DateTime.new(2019,3,18,19.5),
+    start_time: DateTime.new(2019,3,20,19.5),
     course: stretching,
   )
 
   Activity.create!(
-    start_time: DateTime.new(2019,3,18,19),
+    start_time: DateTime.new(2019,3,20,19),
     course:  body_pump,
   )
 
   Activity.create!(
-    start_time: DateTime.new(2019,3,18,19),
+    start_time: DateTime.new(2019,3,20,19),
     course: cxworx,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,18,17.5),
-    course: aquabike,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,18,20),
-    course: grit_training,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,18,20),
-    course: pilates,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,18,20),
-    course: hiphop,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,19,17),
-    course: tai_chi,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,19,17.5),
-    course: boxe_anglaise,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,19,18),
-    course: body_combat,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,19,18),
-    course: spinning,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,19,18.5),
-    course: hatha_yoga,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,19,18.5),
-    course: cxworx,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,19,19.5),
-    course: stretching,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,19,19.5),
-    course: kickboxing,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,19,19),
-    course: pole_dance,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,19,20),
-    course: grit_training,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,19,20),
-    course: pilates,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,20,17),
-    course: stretching,
   )
 
   Activity.create!(
     start_time: DateTime.new(2019,3,20,17.5),
-    course: kickboxing,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,20,18),
-    course: hatha_yoga,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,20,18),
-    course: cxworx,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,20,18.5),
-    course: boxe_anglaise,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,20,18.5),
-    course: grit_training,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,20,19.5),
-    course: tai_chi,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,20,19.5),
     course: aquabike,
   )
 
   Activity.create!(
-    start_time: DateTime.new(2019,3,20,19),
-    course:  body_combat,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,20,19),
-    course: spinning,
+    start_time: DateTime.new(2019,3,20,20),
+    course: grit_training,
   )
 
   Activity.create!(
@@ -611,32 +499,82 @@ kickboxing = Course.find_by(name: "Kick Boxing")
 
   Activity.create!(
     start_time: DateTime.new(2019,3,20,20),
-    course: pole_dance,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,20,20),
-    course: crossfit,
+    course: hiphop,
   )
 
   Activity.create!(
     start_time: DateTime.new(2019,3,21,17),
-    course: crossfit,
+    course: tai_chi,
   )
 
   Activity.create!(
     start_time: DateTime.new(2019,3,21,17.5),
+    course: boxe_anglaise,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,21,18),
+    course: body_combat,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,21,18),
+    course: spinning,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,21,18.5),
+    course: hatha_yoga,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,21,18.5),
+    course: cxworx,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,21,19.5),
+    course: stretching,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,21,19.5),
+    course: kickboxing,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,21,19),
+    course: pole_dance,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,21,20),
     course: grit_training,
   )
 
   Activity.create!(
-    start_time: DateTime.new(2019,3,21,18),
-    course: body_pump,
+    start_time: DateTime.new(2019,3,21,20),
+    course: pilates,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,21,17),
+    course: stretching,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,21,17.5),
+    course: kickboxing,
   )
 
   Activity.create!(
     start_time: DateTime.new(2019,3,21,18),
-    course: tai_chi,
+    course: hatha_yoga,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,21,18),
+    course: cxworx,
   )
 
   Activity.create!(
@@ -646,32 +584,27 @@ kickboxing = Course.find_by(name: "Kick Boxing")
 
   Activity.create!(
     start_time: DateTime.new(2019,3,21,18.5),
-    course: body_combat,
+    course: grit_training,
   )
 
   Activity.create!(
     start_time: DateTime.new(2019,3,21,19.5),
+    course: tai_chi,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,21,19.5),
+    course: aquabike,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,21,19),
+    course:  body_combat,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,21,19),
     course: spinning,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,21,19.5),
-    course: stretching,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,21,19),
-    course:  cxworx,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,21,19),
-    course: hatha_yoga,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,21,20),
-    course: kickboxing,
   )
 
   Activity.create!(
@@ -686,42 +619,37 @@ kickboxing = Course.find_by(name: "Kick Boxing")
 
   Activity.create!(
     start_time: DateTime.new(2019,3,21,20),
-    course: aquabike,
+    course: crossfit,
   )
 
   Activity.create!(
     start_time: DateTime.new(2019,3,22,17),
-    course: aquabike,
+    course: crossfit,
   )
 
   Activity.create!(
     start_time: DateTime.new(2019,3,22,17.5),
-    course: pole_dance,
+    course: grit_training,
   )
 
   Activity.create!(
     start_time: DateTime.new(2019,3,22,18),
-    course: pilates,
+    course: body_pump,
   )
 
   Activity.create!(
     start_time: DateTime.new(2019,3,22,18),
-    course: kickboxing,
+    course: tai_chi,
   )
 
   Activity.create!(
     start_time: DateTime.new(2019,3,22,18.5),
-    course: hatha_yoga,
+    course: boxe_anglaise,
   )
 
   Activity.create!(
     start_time: DateTime.new(2019,3,22,18.5),
-    course: cxworx,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,22,19.5),
-    course: stretching,
+    course: body_combat,
   )
 
   Activity.create!(
@@ -730,153 +658,163 @@ kickboxing = Course.find_by(name: "Kick Boxing")
   )
 
   Activity.create!(
-    start_time: DateTime.new(2019,3,22,19),
-    course: boxe_anglaise,
+    start_time: DateTime.new(2019,3,22,19.5),
+    course: stretching,
   )
 
   Activity.create!(
     start_time: DateTime.new(2019,3,22,19),
-    course: tai_chi,
+    course:  cxworx,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,22,19),
+    course: hatha_yoga,
   )
 
   Activity.create!(
     start_time: DateTime.new(2019,3,22,20),
-    course: body_pump,
+    course: kickboxing,
   )
 
   Activity.create!(
     start_time: DateTime.new(2019,3,22,20),
-    course: crossfit,
+    course: pilates,
   )
 
   Activity.create!(
     start_time: DateTime.new(2019,3,22,20),
-    course: grit_training,
+    course: pole_dance,
   )
 
   Activity.create!(
     start_time: DateTime.new(2019,3,22,20),
-    course: body_combat,
+    course: aquabike,
   )
 
   Activity.create!(
     start_time: DateTime.new(2019,3,23,17),
-    course: crossfit,
+    course: aquabike,
   )
 
   Activity.create!(
     start_time: DateTime.new(2019,3,23,17.5),
-    course: grit_training,
+    course: pole_dance,
   )
 
   Activity.create!(
     start_time: DateTime.new(2019,3,23,18),
-    course: body_pump,
+    course: pilates,
   )
 
   Activity.create!(
     start_time: DateTime.new(2019,3,23,18),
-    course: tai_chi,
+    course: kickboxing,
   )
 
   Activity.create!(
     start_time: DateTime.new(2019,3,23,18.5),
+    course: hatha_yoga,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,23,18.5),
+    course: cxworx,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,23,19.5),
+    course: stretching,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,23,19.5),
+    course: spinning,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,23,19),
     course: boxe_anglaise,
   )
 
   Activity.create!(
-    start_time: DateTime.new(2019,3,23,18.5),
-    course: body_combat,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,23,19.5),
-    course: spinning,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,23,19.5),
-    course: stretching,
-  )
-
-  Activity.create!(
     start_time: DateTime.new(2019,3,23,19),
-    course: cxworx,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,23,19),
-    course: hatha_yoga,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,23,20),
-    course: kickboxing,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,23,20),
-    course: pilates,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,23,20),
-    course: pole_dance,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,23,20),
-    course: aquabike,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,24,17),
-    course: body_combat,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,24,17.5),
     course: tai_chi,
   )
 
   Activity.create!(
-    start_time: DateTime.new(2019,3,24,18),
+    start_time: DateTime.new(2019,3,23,20),
+    course: body_pump,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,23,20),
     course: crossfit,
   )
 
   Activity.create!(
-    start_time: DateTime.new(2019,3,24,18),
-    course: aquabike,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,24,18.5),
-    course: kickboxing,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,24,18.5),
-    course: hatha_yoga,
-  )
-
-  Activity.create!(
-    start_time: DateTime.new(2019,3,24,19.5),
+    start_time: DateTime.new(2019,3,23,20),
     course: grit_training,
   )
 
   Activity.create!(
-    start_time: DateTime.new(2019,3,24,19.5),
-    course: pole_dance,
+    start_time: DateTime.new(2019,3,23,20),
+    course: body_combat,
   )
 
   Activity.create!(
-    start_time: DateTime.new(2019,3,24,19),
+    start_time: DateTime.new(2019,3,24,17),
+    course: crossfit,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,24,17.5),
+    course: grit_training,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,24,18),
+    course: body_pump,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,24,18),
+    course: tai_chi,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,24,18.5),
+    course: boxe_anglaise,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,24,18.5),
+    course: body_combat,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,24,19.5),
+    course: spinning,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,24,19.5),
     course: stretching,
   )
 
   Activity.create!(
     start_time: DateTime.new(2019,3,24,19),
-    course: body_pump,
+    course: cxworx,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,24,19),
+    course: hatha_yoga,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,24,20),
+    course: kickboxing,
   )
 
   Activity.create!(
@@ -886,16 +824,81 @@ kickboxing = Course.find_by(name: "Kick Boxing")
 
   Activity.create!(
     start_time: DateTime.new(2019,3,24,20),
+    course: pole_dance,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,24,20),
+    course: aquabike,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,25,17),
+    course: body_combat,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,25,17.5),
+    course: tai_chi,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,25,18),
+    course: crossfit,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,25,18),
+    course: aquabike,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,25,18.5),
+    course: kickboxing,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,25,18.5),
+    course: hatha_yoga,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,25,19.5),
+    course: grit_training,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,25,19.5),
+    course: pole_dance,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,25,19),
+    course: stretching,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,25,19),
+    course: body_pump,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,25,20),
+    course: pilates,
+  )
+
+  Activity.create!(
+    start_time: DateTime.new(2019,3,25,20),
     course: spinning,
   )
 
   Activity.create!(
-    start_time: DateTime.new(2019,3,24,20),
+    start_time: DateTime.new(2019,3,25,20),
     course: cxworx,
   )
 
   Activity.create!(
-    start_time: DateTime.new(2019,3,24,20),
+    start_time: DateTime.new(2019,3,25,20),
     course: boxe_anglaise,
   )
 
