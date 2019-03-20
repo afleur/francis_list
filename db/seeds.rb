@@ -435,7 +435,7 @@ hiphop = Course.find_by(name: "Hip-Hop")
 kickboxing = Course.find_by(name: "Kick Boxing")
 
   Activity.create!(
-    start_time: DateTime.new(2019,3,18,17),
+    start_time: DateTime.new(Time.zone.now.to_date,17),
     course: hatha_yoga,
   )
 
