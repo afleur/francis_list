@@ -1,8 +1,6 @@
 {
-  "application.css": "/packs/application-4f2e95db95c07682b2dcc1eaffafb0e9.css",
-  "application.css.map": "/packs/application-4f2e95db95c07682b2dcc1eaffafb0e9.css.map",
-  "application.js": "/packs/application-0ef9e7b30db2dcb68f95.js",
-  "application.js.map": "/packs/application-0ef9e7b30db2dcb68f95.js.map",
+  "application.js": "/packs/application-b0ac3bbf718aa52c8afc.js",
+  "application.js.map": "/packs/application-b0ac3bbf718aa52c8afc.js.map",
   "swipebooking.js": "/packs/swipebooking-3f064ff7f9aa0162e33f.js",
   "swipebooking.js.map": "/packs/swipebooking-3f064ff7f9aa0162e33f.js.map"
 }

@@ -38,16 +38,17 @@
   margin-top: 3px;
   font-family: $headers-font;
   font-weight: bold;
+  color: #727272;
 }
 
 .course-name a {
   text-decoration: none;
-  color: #727272;
+  color: $secondary-purple;
 }
 
 .course-name a:hover {
   text-decoration: none;
-  color: #8D0B88;
+  color: rgb(0, 14, 69);
 }
 
 .course-studio {
@@ -94,24 +95,29 @@
 .category-cardio {
   background-color: rgba(231, 0, 0, 0.8);
   padding: 1px 3px;
+  border-radius: 2px;
 }
 
 .category-danse {
   background-color: rgba(223, 70, 171, 0.8);
   padding: 1px 3px;
+  border-radius: 2px;
 }
 
 .category-artsmartiaux {
   background-color: rgba(180, 180, 180, 0.8);
   padding: 1px 3px;
+  border-radius: 2px;
 }
 
 .category-souplesse {
-  background-color: rgba(4, 134, 48, 0.8);
+  background-color: rgba(0, 157, 137, 0.8);
   padding: 1px 3px;
+  border-radius: 2px;
 }
 
 .category-renforcement {
   background-color: rgba(16, 184, 220, 0.8);
   padding: 1px 3px;
+  border-radius: 2px;
 }

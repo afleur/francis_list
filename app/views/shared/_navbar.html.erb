@@ -4,11 +4,11 @@
   <div>
     <% if user_signed_in? %>
       <%= link_to root_path, class: "navbar-brand" do %>
-        <%= image_tag "menu-logo-picto.svg" %>
+        <%= image_tag "nwlogo.png"%>
       <% end %>
     <% else %>
       <%= link_to root_path, class: "navbar-brand" do %>
-        <%= image_tag "logo.svg" %>
+        <%= image_tag "white-logo.png" %>
       <% end %>
     <% end %>
   </div>
@@ -17,13 +17,13 @@
       <!-- Links when logged in -->
       <div>
         <%= link_to activities_path, class: "navbar-item" do %>
-          <%= image_tag "menu-calendar-icn.svg" %>
+          <%= image_tag "calendar-icn.svg" %>
           <p class="activities-txt">Activités</p>
         <% end %>
       </div>
       <div>
         <%= link_to bookings_path, class: "navbar-item" do %>
-          <%= image_tag "menu-bookings-icn.svg" %>
+          <%= image_tag "menu-bookings-icn.svg"%>
           <p>Réservations</p>
           <% if @bookingscount > 0 %>
           <div class="notification-box-booking notification-count-booking"> <%= @bookingscount %> </div>
@@ -38,7 +38,7 @@
       </div>
       <div>
         <%= link_to destroy_user_session_path, method: :delete, class: "navbar-item" do %>
-          <%= image_tag "menu-logout.svg" %>
+        <i class="far fa-user"></i>
           <p class="logout-txt">Quitter</p>
         <% end %>
       </div>
