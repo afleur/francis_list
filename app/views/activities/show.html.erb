@@ -21,7 +21,7 @@
           <!-- <p># @activity.course.category %></p> -->
         </div>
         <div class="card-course-hour">
-          <p><%= image_tag("calendar-icn.svg", height: 20, width: 20) %>
+          <p><%= image_tag("calendar-blue.png", height: 20, width: 20) %>
             <%=l(@activity.start_time, format: "%A %e %B", locale: 'fr') %></p>
           <p><%=@activity.start_time.strftime("%H:%M")%> - <%= (@activity.start_time + (@activity.course.duration * 60)).strftime("%H:%M") %>
           </p>
@@ -41,14 +41,14 @@
         </div>
         <div class="card-course-infos">
           <div class="small-padding">
-            <%= image_tag("info-icn.svg", height: 18, width: 18) %>
+            <%= image_tag("info-icn-blue.png", height: 18, width: 18) %>
             INFOS PRATIQUES
           </div>
           <%= raw @activity.course.infos %>
         </div>
         <div class="card-course-desc">
           <div class="small-padding">
-            <%= image_tag("comment-icn.svg", height: 20, width: 20) %>
+            <%= image_tag("comment-icn-blue.png", height: 20, width: 20) %>
             A PROPOS
           </div>
           <p>
@@ -56,7 +56,7 @@
           </p>
         </div>
         <div class="card-course-location small-padding">
-          <%= image_tag("pointer-icn.svg", height: 20, width: 20) %>
+          <%= image_tag("pointer-icn-blue.png", height: 20, width: 15) %>
           LIEU <br>
           <%= @activity.course.full_address %>
         </div>

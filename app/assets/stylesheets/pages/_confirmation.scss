@@ -19,6 +19,7 @@
 .strong-text {
   font-size: 16px;
   font-weight: bolder;
+  color: $primary-purple;
 }
 
 .light-text {
@@ -47,6 +48,10 @@
 .confirmation-ok a {
   text-decoration: none;
   color: #ECECEC;
+}
+
+.confirmation-ok {
+  margin-top: 20px;
 }
 
 .confirmation-date-info {

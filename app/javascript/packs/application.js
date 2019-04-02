@@ -17,4 +17,4 @@ import {  } from '../plugins/circle-progress';
 
 
 import { } from './swipebooking';
-
+import "../css/application.css"
